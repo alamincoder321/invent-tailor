@@ -1,0 +1,16 @@
+.sb-sidenav-dark {
+    background: white;
+    color: #000;
+}
+
+.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav .sb-sidenav-menu {
+    box-shadow: 0px 0px 8px #62626236;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link {
+    color: #000;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
+    color: #000;
+}
