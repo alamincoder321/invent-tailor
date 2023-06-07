@@ -12,6 +12,7 @@
     <link href="{{asset('backend')}}/css/styles.css" rel="stylesheet" />
     <link href="{{asset('backend')}}/css/custom.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body class="sb-nav-fixed">
@@ -28,7 +29,7 @@
                     @yield("content")
                 </div>
             </main>
-            <footer class="py-4 bg-light mt-auto">
+            <!-- <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
                     <div class="d-flex align-items-center justify-content-between small">
                         <div class="text-muted">Copyright &copy; Your Website {{date('Y')}}</div>
@@ -39,7 +40,7 @@
                         </div>
                     </div>
                 </div>
-            </footer>
+            </footer> -->
         </div>
     </div>
     <script src="{{asset('js/app.js')}}"></script>

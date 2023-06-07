@@ -5116,6 +5116,68 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
@@ -37840,115 +37902,225 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-xl-3 col-md-6" }, [
-        _c("div", { staticClass: "card bg-primary text-white mb-4" }, [
-          _c("div", { staticClass: "card-body" }, [_vm._v("Primary Card")]),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass:
-                "card-footer d-flex align-items-center justify-content-between",
-            },
-            [
-              _c(
-                "a",
-                {
-                  staticClass: "small text-white stretched-link",
-                  attrs: { href: "#" },
-                },
-                [_vm._v("View Details")]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "small text-white" }, [
-                _c("i", { staticClass: "fas fa-angle-right" }),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-xl-3 col-lg-6" }, [
+          _c("div", { staticClass: "card l-bg-cherry" }, [
+            _c("div", { staticClass: "card-statistic-3 p-4" }, [
+              _c("div", { staticClass: "card-icon card-icon-large" }, [
+                _c("i", { staticClass: "fas fa-shopping-cart" }),
               ]),
-            ]
-          ),
+              _vm._v(" "),
+              _c("div", { staticClass: "mb-4" }, [
+                _c("h5", { staticClass: "card-title mb-0" }, [
+                  _vm._v("New Orders"),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row align-items-center mb-2 d-flex" }, [
+                _c("div", { staticClass: "col-8" }, [
+                  _c("h2", { staticClass: "d-flex align-items-center mb-0" }, [
+                    _vm._v(
+                      "\n                                3,243\n                            "
+                    ),
+                  ]),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-4 text-right" }, [
+                  _c("span", [
+                    _vm._v("12.5% "),
+                    _c("i", { staticClass: "fa fa-arrow-up" }),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "progress mt-1",
+                  staticStyle: { height: "8px" },
+                  attrs: { "data-height": "8" },
+                },
+                [
+                  _c("div", {
+                    staticClass: "progress-bar l-bg-cyan",
+                    staticStyle: { width: "25%" },
+                    attrs: {
+                      role: "progressbar",
+                      "data-width": "25%",
+                      "aria-valuenow": "25",
+                      "aria-valuemin": "0",
+                      "aria-valuemax": "100",
+                    },
+                  }),
+                ]
+              ),
+            ]),
+          ]),
         ]),
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-xl-3 col-md-6" }, [
-        _c("div", { staticClass: "card bg-warning text-white mb-4" }, [
-          _c("div", { staticClass: "card-body" }, [_vm._v("Warning Card")]),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass:
-                "card-footer d-flex align-items-center justify-content-between",
-            },
-            [
-              _c(
-                "a",
-                {
-                  staticClass: "small text-white stretched-link",
-                  attrs: { href: "#" },
-                },
-                [_vm._v("View Details")]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "small text-white" }, [
-                _c("i", { staticClass: "fas fa-angle-right" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-xl-3 col-lg-6" }, [
+          _c("div", { staticClass: "card l-bg-blue-dark" }, [
+            _c("div", { staticClass: "card-statistic-3 p-4" }, [
+              _c("div", { staticClass: "card-icon card-icon-large" }, [
+                _c("i", { staticClass: "fas fa-users" }),
               ]),
-            ]
-          ),
+              _vm._v(" "),
+              _c("div", { staticClass: "mb-4" }, [
+                _c("h5", { staticClass: "card-title mb-0" }, [
+                  _vm._v("Customers"),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row align-items-center mb-2 d-flex" }, [
+                _c("div", { staticClass: "col-8" }, [
+                  _c("h2", { staticClass: "d-flex align-items-center mb-0" }, [
+                    _vm._v(
+                      "\n                                15.07k\n                            "
+                    ),
+                  ]),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-4 text-right" }, [
+                  _c("span", [
+                    _vm._v("9.23% "),
+                    _c("i", { staticClass: "fa fa-arrow-up" }),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "progress mt-1",
+                  staticStyle: { height: "8px" },
+                  attrs: { "data-height": "8" },
+                },
+                [
+                  _c("div", {
+                    staticClass: "progress-bar l-bg-green",
+                    staticStyle: { width: "25%" },
+                    attrs: {
+                      role: "progressbar",
+                      "data-width": "25%",
+                      "aria-valuenow": "25",
+                      "aria-valuemin": "0",
+                      "aria-valuemax": "100",
+                    },
+                  }),
+                ]
+              ),
+            ]),
+          ]),
         ]),
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-xl-3 col-md-6" }, [
-        _c("div", { staticClass: "card bg-success text-white mb-4" }, [
-          _c("div", { staticClass: "card-body" }, [_vm._v("Success Card")]),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass:
-                "card-footer d-flex align-items-center justify-content-between",
-            },
-            [
-              _c(
-                "a",
-                {
-                  staticClass: "small text-white stretched-link",
-                  attrs: { href: "#" },
-                },
-                [_vm._v("View Details")]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "small text-white" }, [
-                _c("i", { staticClass: "fas fa-angle-right" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-xl-3 col-lg-6" }, [
+          _c("div", { staticClass: "card l-bg-green-dark" }, [
+            _c("div", { staticClass: "card-statistic-3 p-4" }, [
+              _c("div", { staticClass: "card-icon card-icon-large" }, [
+                _c("i", { staticClass: "fas fa-ticket-alt" }),
               ]),
-            ]
-          ),
+              _vm._v(" "),
+              _c("div", { staticClass: "mb-4" }, [
+                _c("h5", { staticClass: "card-title mb-0" }, [
+                  _vm._v("Ticket Resolved"),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row align-items-center mb-2 d-flex" }, [
+                _c("div", { staticClass: "col-8" }, [
+                  _c("h2", { staticClass: "d-flex align-items-center mb-0" }, [
+                    _vm._v(
+                      "\n                                578\n                            "
+                    ),
+                  ]),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-4 text-right" }, [
+                  _c("span", [
+                    _vm._v("10% "),
+                    _c("i", { staticClass: "fa fa-arrow-up" }),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "progress mt-1",
+                  staticStyle: { height: "8px" },
+                  attrs: { "data-height": "8" },
+                },
+                [
+                  _c("div", {
+                    staticClass: "progress-bar l-bg-orange",
+                    staticStyle: { width: "25%" },
+                    attrs: {
+                      role: "progressbar",
+                      "data-width": "25%",
+                      "aria-valuenow": "25",
+                      "aria-valuemin": "0",
+                      "aria-valuemax": "100",
+                    },
+                  }),
+                ]
+              ),
+            ]),
+          ]),
         ]),
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-xl-3 col-md-6" }, [
-        _c("div", { staticClass: "card bg-danger text-white mb-4" }, [
-          _c("div", { staticClass: "card-body" }, [_vm._v("Danger Card")]),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass:
-                "card-footer d-flex align-items-center justify-content-between",
-            },
-            [
-              _c(
-                "a",
-                {
-                  staticClass: "small text-white stretched-link",
-                  attrs: { href: "#" },
-                },
-                [_vm._v("View Details")]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "small text-white" }, [
-                _c("i", { staticClass: "fas fa-angle-right" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-xl-3 col-lg-6" }, [
+          _c("div", { staticClass: "card l-bg-orange-dark" }, [
+            _c("div", { staticClass: "card-statistic-3 p-4" }, [
+              _c("div", { staticClass: "card-icon card-icon-large" }, [
+                _c("i", { staticClass: "fas fa-dollar-sign" }),
               ]),
-            ]
-          ),
+              _vm._v(" "),
+              _c("div", { staticClass: "mb-4" }, [
+                _c("h5", { staticClass: "card-title mb-0" }, [
+                  _vm._v("Revenue Today"),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row align-items-center mb-2 d-flex" }, [
+                _c("div", { staticClass: "col-8" }, [
+                  _c("h2", { staticClass: "d-flex align-items-center mb-0" }, [
+                    _vm._v(
+                      "\n                                $11.61k\n                            "
+                    ),
+                  ]),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-4 text-right" }, [
+                  _c("span", [
+                    _vm._v("2.5% "),
+                    _c("i", { staticClass: "fa fa-arrow-up" }),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "progress mt-1",
+                  staticStyle: { height: "8px" },
+                  attrs: { "data-height": "8" },
+                },
+                [
+                  _c("div", {
+                    staticClass: "progress-bar l-bg-cyan",
+                    staticStyle: { width: "25%" },
+                    attrs: {
+                      role: "progressbar",
+                      "data-width": "25%",
+                      "aria-valuenow": "25",
+                      "aria-valuemin": "0",
+                      "aria-valuemax": "100",
+                    },
+                  }),
+                ]
+              ),
+            ]),
+          ]),
         ]),
       ]),
     ])
